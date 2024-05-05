@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Home() {
   const login = async () => {
-    const res = await fetch("http://localhost:5000/api/auth/createinsta", {
+    const res = await fetch("https://apis-rouge.vercel.app/api/auth/createinsta", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
